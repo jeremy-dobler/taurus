@@ -41,6 +41,11 @@ export interface FieldMap {
   interactions?: any[];
   defaultValue?: any;
   systemRequired?: boolean;
+  allowedDateRange?: AllowedDateRange;
+}
+
+export interface AllowedDateRange {
+  minOffset?: null;
 }
 
 export interface FieldLayout {
